@@ -3,26 +3,37 @@ body {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
-    background-color: #f5f5f5;
+	background-color: #f5f5f5;
 }
 
-hr {
-    margin: 0;
-    padding: 0;
-    opacity: 40%;
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
 }
-h3,h5,
+hr {
+	margin: 0;
+	padding: 0;
+	opacity: 40%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+label,
 p {
 	padding: 0;
 	margin: 0;
-	font-family: "Roboto", sans-serif;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 a {
 	text-decoration: none;
 	color: black;
-	font-family: "Roboto", sans-serif;
-    cursor: pointer;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	cursor: pointer;
 }
 
 .header hr {
@@ -79,7 +90,8 @@ a {
 	margin: 0 auto;
 	align-items: center;
 	justify-content: space-between;
-	max-width: 70%
+	max-width: 70%;
+	padding: 15px 0;
 }
 
 .header .nav .items {
@@ -105,7 +117,7 @@ a {
 }
 
 .footer {
-    width: 100%;
+	width: 100%;
 }
 
 .footer .container {
@@ -149,7 +161,7 @@ a {
 	flex-direction: row;
 	justify-content: space-between;
 	font-size: 14px;
-    padding: 20px 0;
+	padding: 20px 0;
 }
 
 .footer .container .list-container .title {
@@ -177,7 +189,15 @@ a {
 	padding-top: 10px;
 }
 
-.footer .container .list-container .product-list .product-line .items ul li a:hover {
+.footer
+	.container
+	.list-container
+	.product-list
+	.product-line
+	.items
+	ul
+	li
+	a:hover {
 	border-bottom: 1px solid gray;
 	opacity: 100%;
 }
@@ -187,48 +207,46 @@ a {
 }
 
 .footer .container .footer-bottom {
-    font-size: 14px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 20px 0;
+	font-size: 14px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 20px 0;
 }
 
 .footer .container .footer-bottom .copyright {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 }
 
-
 .footer .container .footer-bottom span {
-    margin-right: 10px;
+	margin-right: 10px;
 }
 
 .footer .container .footer-bottom a {
-    margin-left: 15px;
-    font-size: 14px;
+	margin-left: 15px;
+	font-size: 14px;
 }
 
 .footer .container .footer-bottom a:hover {
-    border-bottom: 1px solid gray;
+	text-decoration: underline;
 }
 
 .footer .container .footer-bottom .lang {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 }
 
 .footer .container .footer-bottom .lang .text {
-    font-size: 14px;
-    margin-left: 10px;
+	font-size: 14px;
+	margin-left: 10px;
 }
 
 .footer .container .footer-bottom .lang .text:hover {
-    border-bottom: 1px solid gray;
+	border-bottom: 1px solid gray;
 }
-
 
 .hero {
 	display: flex;
@@ -243,56 +261,169 @@ a {
 }
 
 .showcase {
-    width: 100%;
-    background-color: white;
+	width: 100%;
+	background-color: white;
 }
 
 .showcase .container {
-    max-width: 1100px;
-    height: 165px;
-    display: flex;
-    flex-direction: row;
-    margin: 0 auto;
-    justify-content: center;
+	max-width: 1100px;
+	height: 165px;
+	display: flex;
+	flex-direction: row;
+	margin: 0 auto;
+	justify-content: center;
+	align-items: center;
 }
 
 .showcase .container .product {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0 40px;
 }
 
 .showcase .container .product:hover {
-    border-bottom: 1px solid black;
+	border-bottom: 1px solid black;
 }
 
 .showcase .container .product .picture {
-    display: flex;
-    margin: 0 auto;
+	display: flex;
+	margin: 0 auto;
 }
 
 .showcase .container .product h5 {
-    margin: 0 auto;
+	margin: 0 auto;
 }
 
 .showcase .container .product p {
-    opacity: 60%;
-    font-size: 13px;
-    padding: 10px 0;
-    margin: 0 auto;
+	opacity: 60%;
+	font-size: 13px;
+	padding: 10px 0;
+	margin: 0 auto;
 }
 
 .get-windows {
-    display: flex;
-    justify-content: end;
-    align-items: end;
-    width: 100%;
-    height: 56px;
-    max-width: 65%;
-    margin: 0 auto;
+	display: flex;
+	justify-content: end;
+	align-items: end;
+	width: 100%;
+	height: 56px;
+	max-width: 65%;
+	margin: 0 auto;
 }
 
 .get-windows .wrap {
-    max-width: 220px;
+	max-width: 220px;
+}
+
+.primary {
+	padding: 20px 0;
+	width: 100%;
+}
+
+.primary .wrapper {
+	display: flex;
+	flex-direction: flex;
+	margin: 0 auto;
+	max-width: 70%;
+	justify-content: space-between;
+}
+
+.primary .wrapper .table-content {
+	width: 100%;
+	max-width: 350px;
+	max-height: 1150px;
+	border-radius: 18px;
+	background-color: white;
+}
+
+.primary .wrapper .table-content .wrap {
+	max-width: 75%;
+	margin: 0 auto;
+	background-color: white;
+	padding: 20px 0;
+}
+
+.primary .wrapper .table-content .wrap hr {
+	opacity: 100%;
+	color: #18181b;
+	margin: 10px 0;
+}
+
+.primary .wrapper .table-content .wrap ul li p {
+	font-weight: 550;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	padding: 20px 0;
+	font-size: 18px;
+}
+
+.primary .wrapper .table-content .wrap ul li label {
+	opacity: 80%;
+}
+
+.primary .wrapper .items-content {
+	margin-left: 50px;
+}
+
+.primary .wrapper .items-content .proart .description {
+	text-align: center;
+}
+
+.primary .wrapper .items-content .proart .content {
+	background-color: white;
+	border-radius: 20px;
+	display: flex;
+	margin: 30px auto;
+	width: 100%;
+	height: 220px;
+}
+
+.primary .wrapper .items-content .proart .content .wrap {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	max-width: 60%;
+	margin: 0 auto;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.primary .wrapper .items-content .proart .content .description {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+.primary .wrapper .items-content .proart .content .description h3 {
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.primary .wrapper .items-content .proart .content .description a {
+	margin-top: 20px;
+	font-size: 22px;
+	color: #2563eb;
+}
+
+.primary .wrapper .items-content .proart .content .description a:hover {
+	text-decoration: underline;
+}
+
+.primary .wrapper .items-content .proart .link {
+	display: flex;
+	flex-direction: row;
+	padding: 35px 0;
+	justify-content: center;
+	align-items: center;
+}
+
+.primary .wrapper .items-content .proart .link a {
+	display: flex;
+	width: max-content;
+	border: 1px solid #2563eb;
+	color: #2563eb;
+	padding: 5px 15px;
+    border-radius: 10px;
+    font-size: 18px;
 }
