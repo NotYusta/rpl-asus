@@ -425,6 +425,7 @@ a {
 	padding: 20px;
 	justify-content: space-between;
 	align-items: center;
+	border-radius: 20px;
 }
 
 .primary .wrapper .items-content .item .content-normal .wrap .object {
@@ -458,6 +459,10 @@ a {
 	color:#2563eb;
 	border: unset;
 	padding: unset;
+}
+
+.primary .wrapper .items-content .item .content-normal .wrap ul li:last-child a:hover {
+	text-decoration: underline;
 }
 
 .primary .wrapper .items-content .item .content .proart-wrap {
