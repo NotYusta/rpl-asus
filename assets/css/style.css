@@ -201,18 +201,17 @@ a {
 }
 
 
+.footer .container .footer-bottom span {
+    margin-right: 10px;
+}
+
 .footer .container .footer-bottom a {
-    margin-left: 10px;
-    padding-left: 15px;
+    margin-left: 15px;
     font-size: 14px;
 }
 
 .footer .container .footer-bottom a:hover {
     border-bottom: 1px solid gray;
-}
-
-.footer .container .footer-bottom a:last-child {
-    border-left: 1px solid gray;
 }
 
 .footer .container .footer-bottom .lang {
