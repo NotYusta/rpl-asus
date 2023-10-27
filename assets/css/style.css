@@ -413,15 +413,11 @@ a {
 
 .primary .wrapper .items-content .proart .link {
 	display: flex;
-	flex-direction: row;
 	padding: 35px 0;
 	justify-content: center;
-	align-items: center;
 }
 
 .primary .wrapper .items-content .proart .link a {
-	display: flex;
-	width: max-content;
 	border: 1px solid #2563eb;
 	color: #2563eb;
 	padding: 5px 15px;
